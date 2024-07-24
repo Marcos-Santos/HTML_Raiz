@@ -1,6 +1,7 @@
 # HTML_Raiz
 
-Estes arquivos são de fixaçao de conhecimento do curso de HTML e CSS do Boson Treinamentos
+En: These files are to capture knowledge from the HTML and CSS course at Boson Trainings
+Pt: Estes arquivos são de fixaçao de conhecimento do curso de HTML e CSS do Boson Treinamentos
 
 # Liguaguem Utilizada
 HTML
