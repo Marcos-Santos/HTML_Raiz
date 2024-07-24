@@ -10,6 +10,28 @@
 <head> 
 <title> Este é o titulo da pag HTML</title>
 <meta charset="utf-8"> 
+
+<!--Trabalhando com alguns comandos CSS -->
+<style>
+	div {
+		color: blue; 
+		background-color: lightgray;
+		padding: 10px;
+		margin: 10px;
+		}
+	#aula3 {
+		color: green;
+		background-color: lightblue;
+		}
+	SPAN {
+		color: red;
+		font-weight: bold;
+		}
+
+</style>
+
+
+
 </head>
 
 <body> <!-- Corpo da pag -->
@@ -127,6 +149,72 @@ Quebra de Linha usamos o comando &#60;br&#62;<br>
 			</ol></li>
 	<li>Esse é o quarto </li>
 	<li>Esse é o quinto </li></ol>
+	
+<h3>Lista de definição:</h3> <!-- Lista Ordenada -->
+	
+	
+	<dl>
+		<dt> Banco de Dados</dt>
+			<dd> Estrutura para armazenamento de dados em computador</dd>
+		<dt> SGBD </dt>
+			<dd> Sistema de gerenciamento de Banco de Dados </dd>
+		<dt> SQL </dt>
+			<dd> Structured Query language</dd>
+			<dd> Linguagem de consulta a banco de Dados</dd>
+			
+	</dl>
+	
+<h2> Trabalhando com DIV e SPAN </h2>
+
+<p> O DIV &#60;div&#62; é usado para definir uma divisão ou uma seção do documento. Não é um <br>
+elemento semântico, no entanto, é comumente usado quando não há uma melho atribuição semântica<br>
+O SPAN &#60;span&#62; possuem a mesma finalidade, mais ele é um elemento de linha ou frase. 
+</p>
+
+<section>
+	<h1><strong>Aulas do curso</strong></h1>
+	<div>
+		<h2>Aula 1</h2>
+		<p> Nessa seçao, veremos aspectos introdutorios da Linguagem</p>
+		<ol>
+			<li>Origens</li>
+			<li>ferramentas Necessarias</li>
+		</ol>
+	<p>Na proxima secao, abordaremos a sintaxe da linguagem,</p>
+	</div>		
+	
+	<div>
+		<h2>Aula 2</h2>
+		<p>Nessa aula vamos aprender a sintaxe basica</p>
+		<ol>
+			<li>Sintaxe</li>
+			<li>Palavras Reservadas</li>
+		</ol>
+	</div>
+	<div id="aula3">
+		<h2>Aula 3</h2>
+		<p>Veremos nessa aula como usar estruturas de logica</p>
+		<ol>
+			<li>Condicional if</li>
+			<li>Repetiçao while</li>
+			<li>Arrays e Listas</li>
+		</ol>
+		<p>Não deixem de se inscrever no canal da ,<span>Bóston treinamentos em tecnologia</span>, os caras são feras estou <br>
+		achando esse treinamento de html muito simples e bom , otimo para revisar conteudo</p>
+	</div>
+</section>
+
+<h2> Trabalhando com Imagens </h2>
+<p> O elemento &#60;img&#62; é empregado para inserir imagens em um documento HTML.<br>
+Sintaxe Basica: <span> &#60;img src="arquivo.imagem"&#62;</span></p>
+Exemplo:
+
+<img src= "C:\Users\Santoma7\Downloads\git_icon.png">
+	
+	
+	
+	
+	
 </body>
 
 </html>
